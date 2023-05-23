@@ -1,0 +1,25 @@
+﻿@using asp.intro.Models;
+@model List<Student>
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+    <ul>
+    @foreach(var items in Model)
+    { 
+            <li>
+                <p>@items.Id</p>
+                <p>@items.Name</p>
+                <p>@items.Surname</p>
+                <p>@items.GroupName</p>
+                <p>@items.AvgPoint</p>
+
+
+                </li>
+            
+    }
+    </ul>
+</body>
+</html>

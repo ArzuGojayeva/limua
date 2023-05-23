@@ -1,0 +1,59 @@
+﻿@{
+    int count = 1;
+}
+@model IEnumerable<Client>
+ <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Striped Table</h4>
+                  <p class="card-description">
+                    Add class <code>.table-striped</code>
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>
+                            #
+                          </th>
+                          <th>
+                            Name
+                          </th>
+                          <th>
+                            Description
+                          </th>
+                          <th>
+                            Image
+                          </th>
+                          <th>
+                            Profession
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          @foreach(var item in Model){
+                        <tr>
+                            <td>
+                                @(count++)
+                            </td>
+                             <td>
+                             @item.Name
+                          </td>
+                          <td>
+                            @item.Description
+                          </td> 
+                          <td>
+                           <td class="py-1">
+                            @item.Image
+                          </td>
+                          <td>
+                            @item.profession.Name
+                          </td>
+                        </tr>
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>

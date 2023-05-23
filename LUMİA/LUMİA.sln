@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUMİA", "LUMİA\LUMİA.csproj", "{34F417DC-385F-46FC-81BE-1E91547B85CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F417DC-385F-46FC-81BE-1E91547B85CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F417DC-385F-46FC-81BE-1E91547B85CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F417DC-385F-46FC-81BE-1E91547B85CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F417DC-385F-46FC-81BE-1E91547B85CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C73A60E-3DA9-48DD-B0E9-1F89C6B8767D}
+	EndGlobalSection
+EndGlobal
